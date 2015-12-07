@@ -15,13 +15,13 @@
     ]
   },
   "dependencies": {
+    "glsl-film-grain": "^1.0.2",
+    "glsl-blend-soft-light": "^1.0.5",
     "glslify": "^4.0.0"
   },
   "devDependencies": {
     "browserify": "^12.0.1",
     "budo": "^7.0.2",
-    "glsl-blend-soft-light": "^1.0.5",
-    "glsl-film-grain": "^1.0.2",
     "three": "^0.73.0",
     "three-orbit-viewer": "^69.3.0",
     "uglify-js": "^2.6.1"
