@@ -2,7 +2,11 @@
 
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
-A soft vignette background for ThreeJS demos with a [simplex noise grain](https://github.com/mattdesl/glsl-film-grain).
+[(demo)](http://mattdesl.github.io/three-vignette-background/)
+
+A soft vignette background for ThreeJS demos with a [simplex noise grain](https://github.com/mattdesl/glsl-film-grain). This returns a THREE.Mesh with a plane geometry and a shader which does not project into camera space, and so it fits across the entire device viewport.
+
+[<img src="http://i.imgur.com/wiVE7UE.png" width="60%" />](http://mattdesl.github.io/three-vignette-background/)
 
 Currently, browserify is required to use this module as it has a hard dependency on [glslify](https://github.com/stackgl/glslify), a browserify transform.
 
