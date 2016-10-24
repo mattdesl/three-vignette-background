@@ -25,6 +25,7 @@ function createBackground (opt) {
     depthTest: false
   })
   var mesh = new THREE.Mesh(geometry, material)
+  mesh.frustumCulled = false
   mesh.style = style
   if (opt) mesh.style(opt)
   return mesh
