@@ -1,6 +1,6 @@
 {
   "name": "three-vignette-background",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a simple ThreeJS vignette background",
   "main": "index.js",
   "license": "MIT",
